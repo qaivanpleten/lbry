@@ -189,14 +189,22 @@ class publish_file(unittest.TestCase):
         self.driver.find_element_by_xpath(".//*[@id='drawer']/a[3]").click()
         self.driver.find_element_by_xpath(".//*[@id='header']/nav/a[2]").click()
 
+        time.sleep(10)
+        self.driver.refresh()
+
+        # check uploaded card
+        last_file = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[last()]")
+        self.assertTrue((last_file).is_displayed())
+        self.assertIn("lbry://" + lbry_name, self.driver.find_element_by_xpath(
+            ".//*[@id='main-content']/main/section[last()]/div/div[2]/h3"). get_attribute(
+            "textContent"))
 
 
 
+    @classmethod
+    def tearDownClass(cls):
+        cls.driver.close()
 
-    # # @classmethod
-    # # def tearDownClass(cls):
-    # #     cls.driver.close()
-    # #
-    # #
-    # # if __name__ == '__main__':
-    # #     unittest.main()
+
+    if __name__ == '__main__':
+        unittest.main()

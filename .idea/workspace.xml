@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2970da17-d34f-4ded-a685-ddb43e83b66f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_files_page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publish_file_with_fee.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/My_files_page.py" afterPath="$PROJECT_DIR$/My_files_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish_file_no_fee.py" afterPath="$PROJECT_DIR$/publish_file_no_fee.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tessuite.py" afterPath="$PROJECT_DIR$/tessuite.py" />
     </list>
     <ignored path="lbry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +26,15 @@
     <SUITE FILE_PATH="coverage/lbry$Unittest_check_discover_page_test_3_check_card.coverage" NAME="Unittest check_discover_page.test_3_check_card Coverage Results" MODIFIED="1478864439351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$Unittest_check_discover_page_test_5_filepage.coverage" NAME="Unittest check_discover_page.test_5_filepage Coverage Results" MODIFIED="1478867529235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$Unittest_check_discover_page_test_1_check_starting_page.coverage" NAME="Unittest check_discover_page.test_1_check_starting_page Coverage Results" MODIFIED="1478798136568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lbry$Unittests_in_My_files_page.coverage" NAME="Unittests in My_files_page Coverage Results" MODIFIED="1479742983565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$Unittest_publish_file_test_3_upload_file.coverage" NAME="Unittest publish_file.test_3_upload_file Coverage Results" MODIFIED="1479393487984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$Unittest_check_discover_page_test_2_go_to_discover_page.coverage" NAME="Unittest check_discover_page.test_2_go_to_discover_page Coverage Results" MODIFIED="1478862531497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$Unittests_in_help_page.coverage" NAME="Unittests in help_page Coverage Results" MODIFIED="1479221775155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lbry$Unittests_in_my_wallet_page.coverage" NAME="Unittests in my_wallet_page Coverage Results" MODIFIED="1479478718932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lbry$tessuite.coverage" NAME="tessuite Coverage Results" MODIFIED="1479736818487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lbry$tessuite.coverage" NAME="tessuite Coverage Results" MODIFIED="1479743159856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lbry$Unittests_in_my_wallet_page.coverage" NAME="Unittests in my_wallet_page Coverage Results" MODIFIED="1479743313371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$Unittests_in_login.coverage" NAME="Unittests in login Coverage Results" MODIFIED="1478796143539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lbry$test.coverage" NAME="test Coverage Results" MODIFIED="1479224832531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lbry$Unittests_in_publish_file_no_fee.coverage" NAME="Unittests in publish_file_no_fee Coverage Results" MODIFIED="1479739344620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lbry$Unittests_in_publish_file_no_fee.coverage" NAME="Unittests in publish_file_no_fee Coverage Results" MODIFIED="1479744100526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -67,24 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My_files_page.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/My_files_page.py">
+      <file leaf-file-name="publish_file_with_fee.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/publish_file_with_fee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2646">
+              <caret line="147" column="82" selection-start-line="147" selection-start-column="82" selection-end-line="147" selection-end-column="82" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publish_file_no_fee.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/publish_file_no_fee.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +82,8 @@
       <file leaf-file-name="tessuite.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tessuite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+            <state relative-caret-position="288">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -101,12 +91,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_wallet_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_wallet_page.py">
+      <file leaf-file-name="publish_file_no_fee.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publish_file_no_fee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="1727">
+              <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,15 +118,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tessuite.py" />
         <option value="$PROJECT_DIR$/check_discover_page.py" />
         <option value="$PROJECT_DIR$/settings_page.py" />
         <option value="$PROJECT_DIR$/help_page.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/my_wallet_page.py" />
         <option value="$PROJECT_DIR$/publish_file.py" />
-        <option value="$PROJECT_DIR$/publish_file_no_fee.py" />
         <option value="$PROJECT_DIR$/My_files_page.py" />
+        <option value="$PROJECT_DIR$/tessuite.py" />
+        <option value="$PROJECT_DIR$/publish_file_no_fee.py" />
+        <option value="$PROJECT_DIR$/publish_file_with_fee.py" />
       </list>
     </option>
   </component>
@@ -250,29 +243,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in publish_file" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="lbry" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/publish_file.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in publish_file_no_fee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,6 +282,29 @@
       <option name="METHOD_NAME" value="test_3_upload_file" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in My_files_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lbry" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_files_page.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -530,17 +523,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in my_wallet_page" />
       <item index="1" class="java.lang.String" itemvalue="Python.tessuite" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in publish_file" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in publish_file_no_fee" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest publish_file.test_3_upload_file" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in publish_file_no_fee" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest publish_file.test_3_upload_file" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in My_files_page" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in publish_file_no_fee" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tessuite" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in my_wallet_page" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest publish_file.test_3_upload_file" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in publish_file" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in my_wallet_page" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tessuite" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in My_files_page" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest publish_file.test_3_upload_file" />
       </list>
     </recent_temporary>
   </component>
@@ -555,37 +548,45 @@
       <option name="presentableId" value="Default" />
       <updated>1478794741029</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1479740542831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479740542831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.17 at 17h 17m 49s.xml">
+    <history-entry file="Unittests_in_My_files_page - 2016.11.21 at 17h 07m 17s.xml">
+      <configuration name="Unittests in My_files_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_My_files_page - 2016.11.21 at 17h 33m 37s.xml">
+      <configuration name="Unittests in My_files_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_My_files_page - 2016.11.21 at 17h 35m 57s.xml">
+      <configuration name="Unittests in My_files_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_My_files_page - 2016.11.21 at 17h 42m 36s.xml">
+      <configuration name="Unittests in My_files_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_My_files_page - 2016.11.21 at 17h 43m 07s.xml">
+      <configuration name="Unittests in My_files_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_my_wallet_page - 2016.11.21 at 17h 48m 38s.xml">
+      <configuration name="Unittests in my_wallet_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 17h 49m 58s.xml">
       <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.17 at 17h 18m 17s.xml">
+    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 17h 55m 56s.xml">
       <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.17 at 17h 21m 25s.xml">
+    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 18h 01m 02s.xml">
       <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.17 at 17h 30m 49s.xml">
-      <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.17 at 17h 40m 05s.xml">
-      <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.18 at 16h 13m 36s.xml">
-      <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 16h 27m 58s.xml">
-      <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 16h 28m 26s.xml">
-      <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 16h 36m 26s.xml">
-      <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 16h 42m 40s.xml">
+    <history-entry file="Unittests_in_publish_file_no_fee - 2016.11.21 at 18h 02m 08s.xml">
       <configuration name="Unittests in publish_file_no_fee" configurationId="tests" />
     </history-entry>
   </component>
@@ -593,7 +594,7 @@
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16860144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16860144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,6 +624,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,34 +1002,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/publish_file.py" />
-    <entry file="file://$PROJECT_DIR$/my_wallet_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tessuite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publish_file_no_fee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_discover_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1440">
@@ -1032,6 +1009,32 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tessuite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_files_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_wallet_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,10 +1048,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/My_files_page.py">
+    <entry file="file://$PROJECT_DIR$/publish_file_no_fee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1727">
+          <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish_file_with_fee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="147" column="82" selection-start-line="147" selection-start-column="82" selection-end-line="147" selection-end-column="82" />
           <folding />
         </state>
       </provider>

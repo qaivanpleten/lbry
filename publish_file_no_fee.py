@@ -126,6 +126,7 @@ class publish_file(unittest.TestCase):
         self.assertIn("http://localhost:5279/", self.driver.current_url)
 
     def test_4_upload_file_complete(self):
+        global lbry_name
         wait.until(EC.element_to_be_clickable((By.XPATH, ".//*[@id='drawer']/a[2]"))).click()
 
         # find "lbry name" input
@@ -176,59 +177,20 @@ class publish_file(unittest.TestCase):
         description_textarea.clear()
         description_textarea.send_keys(f.text())
 
-        # find "lbry name" input
-        lbry_name = f.name()
-        lbry_name = lbry_name.split(" ")
-        lbry_name = (lbry_name[0]).lower()
-        lbry_name_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[1]/div/span/input")
-        #lbry_name_input.click()
-        lbry_name_input.clear()
-        lbry_name_input.send_keys(lbry_name)
-        time.sleep(3)
-        self.assertIn(lbry_name, self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[1]/div/em/strong").get_attribute("textContent"))
-
-        # choose file
-        file_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[2]/span/input")
-        #file_input.clear()
-        file_input.send_keys("/home/developer/Изображения/tumblr_of8n6x25FT1r2qr2so1_500.jpg")
-        self.assertIn("File ready for publishing!", self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[2]/div")
-                      .get_attribute("textContent"))
-
-        # choose bid amount
-        bid_value = "0"
-        bid_amount_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[3]/div/span/input")
-        bid_amount_input.clear()
-        bid_amount_input.send_keys(bid_value)
-        self.assertIn(bid_value, bid_amount_input.get_attribute("value"))
-
-        # choose fee - no fee
-        self.assertTrue((self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[1]/span/input"))
-                        .is_enabled())
-
-        # fill "Your Content" form
-        title_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[1]/span/input")
-        author_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[2]/span/input")
-        license_select = Select(self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[3]/span[1]/select"))
-        language_select = Select(self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[4]/span/select"))
-        description_textarea = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[5]/span/textarea")
-        nsfw_checkbox = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[6]/label/span/input")
-
-        title_input.clear()
-        title_input.send_keys(lbry_name)
-
-        author_input.clear()
-        author_input.send_keys(f.name())
-
-        self.assertEqual("Creative Commons Attribution 4.0 International", license_select.first_selected_option.text)
-        self.assertEqual("English", language_select.first_selected_option.text)
-
-        description_textarea.clear()
-        description_textarea.send_keys(f.text())
-
         publish_button = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/div/a[1]")
         publish_button.click()
         # check popup
         self.assertTrue(self.driver.find_element_by_xpath("html/body/div[2]/div/div").is_displayed())
+        # confirm popup
+        self.driver.find_element_by_xpath("html/body/div[2]/div/div/div/a").click()
+
+    def test_5_check_uploaded_file(self):
+        # go to "published" page
+        self.driver.find_element_by_xpath(".//*[@id='drawer']/a[3]").click()
+        self.driver.find_element_by_xpath(".//*[@id='header']/nav/a[2]").click()
+
+
+
 
 
     # # @classmethod

@@ -79,7 +79,7 @@ class publish_file(unittest.TestCase):
         lbry_name = lbry_name.split(" ")
         lbry_name = (lbry_name[0]).lower()
         lbry_name_input = self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[1]/div/span/input")
+            ".//*[@id='main-content']/main/form/section[1]/div/div[1]/input")
         lbry_name_input.clear()
         lbry_name_input.send_keys(lbry_name)
         time.sleep(3)
@@ -87,41 +87,35 @@ class publish_file(unittest.TestCase):
             ".//*[@id='main-content']/main/form/section[1]/div/em/strong").get_attribute("textContent"))
 
         # choose file
-        file_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[2]/span/input")
+        file_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[2]/div/input")
         # file_input.clear()
         file_input.send_keys("/home/developer/Изображения/tumblr_of8n6x25FT1r2qr2so1_500.jpg")
         self.assertIn("File ready for publishing!",
-                      self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[2]/div")
+                      self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[2]/div[2]")
                       .get_attribute("textContent"))
 
         # choose bid amount
         bid_value = "1"
         bid_amount_input = self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[3]/div/span/input")
+            ".//*[@id='main-content']/main/form/section[3]/div/div[1]/input")
         bid_amount_input.clear()
         bid_amount_input.send_keys(bid_value)
         self.assertIn(bid_value, bid_amount_input.get_attribute("value"))
 
         # choose fee
-        self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[2]/span[1]/input").click()
-        fee_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[2]/span[2]/span[1]/input")
+        self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[2]/div/input").click()
+        fee_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[2]/span/div[1]/input")
         fee_input.send_keys("1")
-        fee_required = Select(self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[2]/span[2]/span[2]/select"))
+        fee_required = Select(self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[4]/div/label[2]/span/div[2]/select"))
         fee_required.select_by_value("LBC")
 
         # fill "Your Content" form
-        title_input = self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[5]/div[1]/span/input")
-        author_input = self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[5]/div[2]/span/input")
-        license_select = Select(self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[5]/div[3]/span[1]/select"))
-        language_select = Select(
-            self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[4]/span/select"))
-        description_textarea = self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[5]/div[5]/span/textarea")
-        nsfw_checkbox = self.driver.find_element_by_xpath(
-            ".//*[@id='main-content']/main/form/section[5]/div[6]/label/span/input")
+        title_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[1]/div/input")
+        author_input = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[2]/div/input")
+        license_select = Select(self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[3]/div[1]/select"))
+        language_select = Select(self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[4]/div/select"))
+        description_textarea = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[5]/div/textarea")
+        nsfw_checkbox = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/form/section[5]/div[6]/label/div/input")
 
         title_input.clear()
         title_input.send_keys(lbry_name)

@@ -20,16 +20,7 @@ class check_settings_page(unittest.TestCase):
         global wait
         wait = WebDriverWait(cls.driver, 15)
 
-    # def test_1_check_starting_page(self):
-    #     # check url
-    #     self.assertIn("http://localhost:5279/?claim", self.driver.current_url)
-    #     # check "Claim your beta invitation code" popup is displayed
-    #     self.assertTrue(self.driver.find_element_by_xpath(
-    #         ".//*[@id='main-content']/main/form/div").is_displayed())
-    #     # check "Claim Beta Code" is selected
-    #     self.assertIn("sub-header-selected", self.driver.find_element_by_xpath(".//*[@id='header']/nav/a[4]").get_attribute("class"))
-
-    def test_2_check_settings_page(self):
+    def test_1_check_settings_page(self):
         # find "settings" button and click
         wait.until(EC.element_to_be_clickable((By.XPATH, ".//*[@id='drawer']/a[5]"))).click()
         # check url
@@ -46,15 +37,15 @@ class check_settings_page(unittest.TestCase):
             self.assertTrue((cards_list).is_displayed())
             a += 1
 
-    def test_3_run_on_startup(self):
+    def test_2_run_on_startup(self):
         # check "Run LBRY automatically when I start my computer" is eneabled
         checkbox = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[1]/label/input")
         self.assertTrue((checkbox).is_enabled())
         checkbox.click()
         self.assertTrue((checkbox).is_displayed())
 
-    def test_4_download_directory(self):
-        # find input and check value
+    def test_3_download_directory(self):
+        #find input and check value
         directory_select = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[2]/input")
         self.assertIn("/home/developer/Downloads",
             directory_select.get_attribute("value"))
@@ -74,7 +65,7 @@ class check_settings_page(unittest.TestCase):
         self.assertIn("/home/developer/Downloads",
             directory_select.get_attribute("value"))
 
-    def test_5_bandwidth_limits_change_upload(self):
+    def test_4_bandwidth_limits_change_upload(self):
         max_upload_unlim = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[3]/div[1]/label[1]/input")
         max_upload_limit = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[3]/div[1]/label[2]/input")
 
@@ -97,7 +88,7 @@ class check_settings_page(unittest.TestCase):
         self.assertIn("0", self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[3]/div[1]/label[2]/span/input")
                       .get_attribute("value"))
 
-    def test_6_bandwidth_limit_change_download(self):
+    def test_5_bandwidth_limit_change_download(self):
         # check and "max download unlimited" is selected
         max_download_unlim = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[3]/div[2]/label[1]/input")
         max_download_limit = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[3]/div[2]/label[2]/input")
@@ -119,7 +110,7 @@ class check_settings_page(unittest.TestCase):
                       .get_attribute("value"))
 
 
-    def test_7_show_nsfw_content(self):
+    def test_6_show_nsfw_content(self):
         # check "show_nsfw_content" checkbox
         show_nsfw_content_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH,
                                             ".//*[@id='main-content']/main/section[4]/div/label/input")))
@@ -127,7 +118,7 @@ class check_settings_page(unittest.TestCase):
         show_nsfw_content_checkbox.click()
         self.assertTrue((show_nsfw_content_checkbox).is_displayed())
 
-    def test_8_share_diagnostic_data(self):
+    def test_7_share_diagnostic_data(self):
         # check "Help make LBRY better by contributing diagnostic data about my usage" checkbox
         help_checkbox = wait.until(EC.element_to_be_clickable((By.XPATH,
                                             ".//*[@id='main-content']/main/section[4]/div/label/input")))

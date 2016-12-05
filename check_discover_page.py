@@ -91,7 +91,7 @@ class check_discover_page(unittest.TestCase):
 
         # check lst of result
         a = 1
-        while a < 21:
+        while a < 15:
             list_result = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/div/section[" + str(a) + "]")
             self.assertTrue((list_result).is_displayed())
             a += 1

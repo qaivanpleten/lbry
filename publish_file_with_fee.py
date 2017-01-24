@@ -151,7 +151,7 @@ class publish_file(unittest.TestCase):
         # check uploaded card
         last_file = self.driver.find_element_by_xpath(".//*[@id='main-content']/main/section[last()]")
         self.assertTrue((last_file).is_displayed())
-        self.assertIn("lbry://" + lbry_name, self.driver.find_element_by_xpath(
+        self.assertIn(lbry_name, self.driver.find_element_by_xpath(
             ".//*[@id='main-content']/main/section[last()]/div/div[2]/h3").get_attribute(
             "textContent"))
 
